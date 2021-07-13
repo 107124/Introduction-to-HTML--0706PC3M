@@ -1,8 +1,21 @@
-h1 {
-    color: pink;
-    background-color: green;
+/* Color Scheme:
+Dark Blue: #02111B
+Gray: #3F4045
+coffee brown: #30292F
+Cadet: #5D737E
+*/
+
+.nav-bar {
+    background-color: #02111b;
+    color: #5D737E;
+    height: 200px;
+
 }
 
-h2 {
-    color: blue;
+.phone-hours-wrapper {
+    color: #5D737E;
+}
+
+.link {
+    text-decoration: none;
 }
