@@ -7,20 +7,39 @@ Cadet: #5D737E
 
 body {
     margin: 0px;
+    font-family: 'Uchen', serif;
 }
 
 .nav-bar {
     background-color: #02111b;
-    color: #5D737E;
+    color: white;
     height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.phone-hours-wrapper {
-    color: #5D737E;
+.left-column {
+    display: flex;
+    align-items: center;
     padding-left: 100px;
+
+}
+
+.left-column > .phone-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.icon i {
+    margin-right: 12px;
+    color: #5D737E;
+    font-size: 2em;
+}
+
+.phone-hours-wrapper {
+    color: white;
 }
 
 .link {
