@@ -116,4 +116,44 @@ body {
 
 .featured-section {
     background-image: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    padding: 150px;
+    height: 225px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.featured-section > .top-heading {
+    background-color: #3F4045;
+    width: 325px;
+    text-align: center;
+    color: mediumspringgreen;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.featured-section > .bottom-heading {
+    background-color: mediumspringgreen;
+    color: #30292F;
+    padding: 10px;
+    text-align: center;
+    margin-top: 15px;
+    width: 245px;
+    border-radius: 15px;
+}
+
+/* Review Section */
+
+.review-section {
+    background-image: url("https://images.unsplash.com/photo-1593558159516-d0be2a960c52?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
